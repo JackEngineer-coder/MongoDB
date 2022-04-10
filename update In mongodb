@@ -1,0 +1,1 @@
+db.TeamData.updateOne({name:Smriti Chand},{$set:{Role:"Senior Team Member"}})
