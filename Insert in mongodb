@@ -1,0 +1,5 @@
+{  "_id": {    "$oid": "6252c12e206113da3088ffc0"  },  "Member": 1,  "name": "Jitender Chauhan",  "class": "M.tech 1st sem",  "Role": "Team Leader"}
+
+db.TeamData.insertOne({ Member: 1,  name: "Jitender Chauhan",  class: "M.tech 1st sem",  Role: "Team Leader"})
+
+db.TeamData.insertMany([{ Member: 1,  name: "Jitender Chauhan",  class: "M.tech 1st sem",  Role: "Team Leader"},{ Member: 2,  name: "Punit Sharma",  class: "M.tech 1st sem",  Role: "Team Member"}])
